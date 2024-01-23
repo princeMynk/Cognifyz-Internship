@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background: white;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app .btn-color {
+    margin-top: 250px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app .btn-color span {
+    color: rgb(151, 111, 194);
+}
+
+.app .btn-color .btn1 {
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    font-size: large;
+    font-weight: 600;
+    line-height: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+
+    padding: 0 50px;
+    margin-top: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.calculator {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.calculator .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.calculator .form .grp1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+}
+
+.calculator .form input {
+    width: 40%;
+    height: 40px;
+
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    margin: 10px 0;
+}
+
+.btn2 {
+    background-image: linear-gradient(to right, #9bced4 0, #d4afe1 100%);
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    font-weight: 200;
+    line-height: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+
+    padding: 0 10px;
+    background-color: aqua;
+}
+
+.calculator .form #total {
+    width: 40%;
+    height: 40px;
+
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 0px; */
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    margin: 10px 0;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #A8DADC;
+        color: #000000;
+
+        font-family: "Chakra Petch", sans-serif; 
+    }
+
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #A8DADC;
+        color: #000000;
+    }
+
+    /* Media Queries for Responsive Design */
+
+    @media only screen and (min-width: 600px) {
+        .hero img {
+            max-width: 45%;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .hero img {
+            max-width: 30%;
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+        .hero img {
+            max-width: 22%;
+        }
+    }
+</style>
+
+<body>
+
+    <header>
+        <h2>Responsive Web Page</h2>
+    </header>
+
+    <div class="hero">
+        <img src="https://images.unsplash.com/photo-1689596357477-8f0d11cfdb8b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
+
+        <img src="https://images.unsplash.com/photo-1619330193424-e6a670798b9e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
+
+        <img src="https://images.unsplash.com/photo-1656918931725-2f9d9fce4acb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
+
+        <img src="https://images.unsplash.com/photo-1656918931004-a455bc1c88de?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
+    </div>
+
+    <footer>
+        <p>© Right Reserved</p>
+    </footer>
+
+</body>
+
+</html>
